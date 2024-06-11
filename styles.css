@@ -1,0 +1,120 @@
+:root {
+--green: hsl(75, 94%, 57%);
+--white: hsl(0, 0%, 100%);
+--grey: hsl(0, 0%, 20%);
+--dark-grey: hsl(0, 0%, 12%);
+--black: hsl(0, 0%, 8%);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--black);
+    font-family: Inter, sans-serif;
+    color: var(--white);
+    font-weight: 400;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card {
+    background: var(--dark-grey);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+}
+
+.user-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info img {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+#username {
+    font-weight: 600;
+    margin-block: 1.5rem .5rem;
+    font-size: 1.6rem;
+}
+
+#position {
+    color: var(--green);
+    font-weight: 600;
+    font-size: .9rem;
+    margin-block-start: 0;
+}
+
+.user-bio {
+    font-size: .8rem;
+    padding-inline: .5rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    width: 100%;
+    gap: 1rem;
+    margin: 0;
+}
+
+.socials li {
+    background: var(--grey);
+    padding: .7rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.socials li:hover {
+    background-color: var(--green);
+    cursor: pointer;
+    }
+
+.socials li:hover a {
+    color:var(--dark-grey);
+}
+
+.socials a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+footer {
+    position: absolute;
+    padding: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.attribution {
+    width: 100%;
+}
+
+.attribution a {
+    color: var(--green);
+}
