@@ -21,12 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Screenshot%202024-06-11%20at%2017-55-55%20Frontend%20Mentor%20Social%20links%20profile.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://tortaruga.github.io/social-links-project/](https://tortaruga.github.io/social-links-project/)
 
 
 ### Built with
