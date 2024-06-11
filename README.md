@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-oSOXxAGyzR](https://www.frontendmentor.io/solutions/social-links-profile-oSOXxAGyzR)
 - Live Site URL: [https://tortaruga.github.io/social-links-project/](https://tortaruga.github.io/social-links-project/)
 
 
