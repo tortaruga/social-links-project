@@ -53,7 +53,6 @@ I tried using rem instead of pixels, but as it was a slight disaster and it took
 ### Useful resources
 
 - [using fonts](https://www.w3schools.com/css/css3_fonts.asp) - This helped me because I didn't have the slightest idea what to do with the font file provided in the starter file. 
-- [image not showing on browser](https://stackoverflow.com/questions/8705823/image-showing-up-in-vs-design-mode-but-not-in-browser) - This helped me fix the user avatar image not appearing on broswer by adding a dot before the image path, although to be honest I have no idea why the solution works.
 
 ## Author
 
